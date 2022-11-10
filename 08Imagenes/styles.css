@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document LAURA MERINO ORTIZ*/
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-color: white;
+}
+
+body{
+    width: 1260px;
+	height:700px;
+	background-color:lightgrey;
+	position: relative;
+} 
+
+div#foto1, div#foto2, div#foto3, div#foto4{
+	width:200px;
+	height:200px;
+	background-color:lightblue;
+	position: absolute;
+	/* border: 1px black solid; */
+	overflow: hidden;
+}
+
+img{
+	width: 100%;
+}
+
+div#foto1{
+	left:200px;
+	top:100px;
+}
+
+div#foto2{
+	left:350px;
+	top:200px;
+}
+
+div#foto3{
+	left:500px;
+	top:300px;
+}
+
+div#foto4{
+	left:650px;
+	top:400px;
+}
